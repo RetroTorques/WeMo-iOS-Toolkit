@@ -1,6 +1,6 @@
 # Wemo iOS Toolkit
 
-**_Wemo iOS Toolkit_** is an application built with xcode for iOS that allows you to scan your LAN network and find Wemo devices using a network device and port scanning libraries. **_(Ex: 49152, 49153, 49154)_**. After you have found devices on your network that are from the Wemo product suite you are able to view information, and send commands to control the devices on your network.
+**_Wemo iOS Toolkit_** is an application built with Xcode for iOS that allows you to scan your LAN (Local Area Network) and find Wemo devices using a network device and port scanning libraries. _(Ex Used Ports: 49152, 49153, 49154)_. After you have found devices on your network that are from the Wemo product suite you are able to view information, and send commands to control the devices on your network.
 
 ### Features
 - [x] Scan your LAN (Local Area Network) for Wemo devices
@@ -13,7 +13,7 @@
 
 ### Libraries Used
 - [Alamofire](https://github.com/Alamofire/Alamofire/) - Used to send requests and recieve responses to and from the Wemo devices
-- [SwiftSocket](https://github.com/swiftsocket/SwiftSocket) - Used to send TCP port tests over LAN network to check for devices with open ports **_(Ex: 49152, 49153, 49154)_**
+- [SwiftSocket](https://github.com/swiftsocket/SwiftSocket) - Used to send TCP port tests over LAN network to check for devices with open ports _(Ex: 49152, 49153, 49154)_
 - [MBProgressHUD](https://github.com/jdg/MBProgressHUD) - Used to indicate when loading data in the application
 - [MMLanScan](https://github.com/mavris/MMLanScan) - Used to get a LAN scan of network
 - [AlamoFuzi](https://github.com/thebluepotato/AlamoFuzi) - Used with Alamofire requests using `.responseXML`
