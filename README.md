@@ -26,6 +26,6 @@
 - Swift 3.1+
 
 ### Communication
-If you found a **bug** report an issue.
-If you have a **feature request** open an issue.
-If you want to **contribute** send a pull request.
+- If you found a **bug** report an issue.
+- If you have a **feature request** open an issue.
+- If you want to **contribute** send a pull request.
