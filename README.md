@@ -1,6 +1,6 @@
 # Wemo iOS Toolkit
 
-**_Wemo iOS Toolkit_** is an application built with Xcode for iOS that allows you to scan your LAN (Local Area Network) and find Wemo devices using a network device and port scanning libraries. _(Ex Used Ports: 49152, 49153, 49154)_. After you have found devices on your network that are from the Wemo product suite you are able to view information, and send commands to control the devices on your network.
+**_Wemo iOS Toolkit_** is an application built with Xcode for iOS that allows you to scan your LAN (Local Area Network) and find Wemo devices using the Wemo iOS Toolkit and port scanning libraries. _(Ex Used Ports: 49152, 49153, 49154)_. After you have found devices on your network that are from the Wemo product suite you are able to view information, and send commands to control the wemo devices on your network.
 
 ### Features
 - [x] Scan your LAN (Local Area Network) for Wemo devices
