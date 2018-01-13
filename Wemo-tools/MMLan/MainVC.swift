@@ -110,7 +110,7 @@ class MainVC: UIViewController, MainPresenterDelegate, UITableViewDelegate, UITa
         //MBProgressHUD Loading Notification when data is being sorted through to see if Wemo IP Addresses are open
         let loadingNotification = MBProgressHUD.showAdded(to: view, animated: true)
         loadingNotification.mode = MBProgressHUDMode.indeterminate
-        loadingNotification.label.text = "Loading Wemo Devices..."
+        loadingNotification.label.text = "Loading WeMo Devices..."
         
         //Wait 0.1 Seconds so that ProgressBar has time to dismiss
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.1, execute: {
